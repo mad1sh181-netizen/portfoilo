@@ -1,0 +1,111 @@
+body{
+    background-color: rgb(26, 19, 19);
+   }
+   nav{
+      display: flex;
+      justify-content: center;
+      gap:20px;
+      transform: translate(10px, 20px);
+   }
+   a{
+      text-decoration: none;
+      color: rgb(165, 165, 165);
+      transition: 1s;
+      position: relative;
+      border-radius: 5px;
+      padding: 5px;
+   }
+   .sh{
+      color: gray;
+     }
+      .sh:hover{
+         box-shadow:0 5px, 0 5px, 0 10px rgb(0, 0, 0);
+         color: rgb(255, 255, 255);
+         transform: translateY(-20px);
+      }
+   .container{
+      justify-content: left;
+      display: flex;
+   }
+   .box{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+    padding: 40px;
+    color: white;
+    border-radius: 15px;
+    border: 0.3px solid rgb(32, 28, 28);
+    transform: translate(30px, -110px);
+    margin: 10px;
+ }
+   .i{
+      width: 180px;
+      height:180px;
+      border-radius: 15px;
+   }
+   .b1{
+      transform: translate(1150px, -30px);
+      width: 100px;
+      border-radius: 10px;
+      padding: 10px ;
+      border: 1px solid rgb(26, 19, 19);
+      background-image: linear-gradient(to right,  pink, plum);
+   }
+   .b2{
+   transform: translate(1050px, -90px);
+   width: 10px;
+   height: 10px;
+   border-radius: 10px;
+   }
+   a > img{
+    width: 50px;
+   }
+   .b9{
+    width: 200px;
+    height: 40px;
+   font-size: 15px;
+   border-radius: 10px;
+   border: 1 px solid rgb(26, 19, 19) ;
+   background-image: linear-gradient(to right,  rgb(255, 163, 180), rgb(165, 95, 165));
+   }
+ .h1{
+    color:rgb(235, 170, 221);
+   transform: translate(60px, -30px);
+   font-size: 50px;
+}
+.grid{
+display:flex;
+justify-content: center;
+align-content: center;
+gap: 140px;
+transform: translate(120px, -790px);
+}
+.inl{
+color: white;
+}
+.dis{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    transform: translate(-350px, 400px);
+}
+.v{
+    color: white;
+    font-size: 55px;
+    box-shadow: 5px 10px 10px black;
+    padding:20px;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid rgb(90, 85, 85);
+    width:150px ;
+}
+.p{
+    transform: translate( 450px, -765px);
+}
+.bu8{
+   transform: translate(400px, -590px);
+   background-image: linear-gradient(to right,  rgb(255, 163, 180), rgb(165, 95, 165));
+ border-radius: 10px;
+ width: 110px;
+ padding: 8px;
+}

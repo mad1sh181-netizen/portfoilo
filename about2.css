@@ -1,0 +1,120 @@
+body{
+    background-color: rgb(255, 255, 255);
+   }
+   nav{
+      display: flex;
+      justify-content: center;
+      gap:20px;
+      transform: translate(10px, 20px);
+   }
+   a{
+      text-decoration: none;
+      color: rgb(8, 8, 8);
+      transition: 1s;
+      position: relative;
+      padding: 5px;
+      border-radius: 5px;
+   }
+   .container{
+      justify-content: left;
+      display: flex;
+   }
+   .box{
+      box-shadow: 0 4px 8px 0 rgb(255, 255, 255), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+      padding: 40px;
+      color: rgb(0, 0, 0);
+      border-radius: 15px;
+      border: 0.3px solid rgb(190, 180, 180);
+      transform: translate(30px, -150px);
+      margin: 10px;
+   }
+   .i{
+      width: 180px;
+      height:180px;
+      border-radius: 15px;
+      border: 1px solid white;
+   }
+   .b2{
+      transform: translate(1070px, -80px);
+      width: 200px;
+      border-radius: 10px;
+   }
+   .b1{
+   transform: translate(1140px, -30px);
+   width: 105px;
+   height: 40px;
+   color: rgb(255, 255, 255);
+   border: 1px solid white;
+   border-radius: 10px;
+   background-image: linear-gradient(to right,  rgb(207, 135, 207), rgb(179, 57, 179));
+   }
+    a > img{
+    width: 30px;
+    height: 30px;
+   }
+   .b9{
+    width: 200px;
+    height: 40px;
+   font-size: 15px;
+   border: 1px solid white;
+   border-radius: 10px;
+   color: white;
+   background-image: linear-gradient(to right,  rgb(207, 135, 207), rgb(179, 57, 179));
+ }
+ .sh{
+  color: gray;
+ }
+  .sh:hover{
+     box-shadow:0 5px,0 5px, 0 10px rgb(255, 255, 255);
+     color: black;
+     transform: translateY(-20px);
+  }
+  .h1{
+    color: rgb(190, 33, 138);
+   transform: translate(350px, -740px);
+   font-size: 50px;
+}
+.grid{
+display:flex;
+justify-content: center;
+align-content: center;
+gap: 140px;
+transform: translate(115px, -1000px);
+}
+.inl{
+color: rgb(0, 0, 0);
+}
+.dis{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-content: center;
+    color: rgb(148, 39, 148);
+    transform: translate(-350px, 260px);
+}
+.v{
+   color: rgb(196, 20, 166);
+   font-size: 55px;
+   box-shadow: 5px 10px 10px rgb(167, 166, 123);
+   padding:20px;
+   border-radius: 10px;
+   text-align: center;
+   border: 1px solid rgb(90, 85, 85);
+   width:150px;
+}
+.pn{
+    transform: translate(280px, -870px);
+}
+.p{
+    transform: translate( 450px, -850px);
+    color: #000;
+}
+.bu8{
+   transform: translate(400px, -855px);
+   background-image: linear-gradient(to right,  rgb(201, 38, 165), rgb(165, 95, 165));
+ border-radius: 10px;
+ width: 110px;
+ padding: 8px;
+ border: 1px solid white;
+ color:white ;
+}

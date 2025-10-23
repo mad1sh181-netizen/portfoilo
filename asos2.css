@@ -1,0 +1,102 @@
+body{
+   background-color: rgb(255, 255, 255);
+  }
+  nav{
+     display: flex;
+     justify-content: center;
+     gap:20px;
+     transform: translate(10px, 20px);
+  }
+  a{
+     text-decoration: none;
+     color: rgb(8, 8, 8);
+     transition: 1s;
+     position: relative;
+     padding: 5px;
+     border-radius: 5px;
+  }
+  .container{
+     justify-content: left;
+     display: flex;
+  }
+  .box{
+     box-shadow: 0 4px 8px 0 rgb(255, 255, 255), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+     padding: 40px;
+     color: rgb(0, 0, 0);
+     border-radius: 15px;
+     border: 0.3px solid rgb(190, 180, 180);
+     transform: translate(30px, -150px);
+     margin: 10px;
+  }
+  .i{
+     width: 180px;
+     height:180px;
+     border-radius: 15px;
+     border: 1px solid white;
+  }
+  .b2{
+     transform: translate(1070px, -80px);
+     width: 200px;
+     border-radius: 10px;
+  }
+  .b1{
+  transform: translate(1140px, -30px);
+  width: 105px;
+  height: 40px;
+  color: rgb(255, 255, 255);
+  border: 1px solid white;
+  border-radius: 10px;
+  background-image: linear-gradient(to right,  rgb(207, 135, 207), rgb(179, 57, 179));
+  }
+   a > img{
+   width: 30px;
+   height: 30px;
+  }
+  .h{
+     color: rgb(165, 59, 165);
+     transform: translate(60px, 10px);
+     font-size: 75px;
+  }
+  .b6{
+     transform: translate(-550px, 360px);
+     color: rgb(0, 0, 0);
+     border-radius: 10px;
+     padding: 10px;
+     background-color: rgb(255, 255, 255);
+     box-shadow: 5px 10px 10px rgb(145, 133, 133);
+     border: 1px solid white;
+  }
+  .b7{
+     transform: translate(-500px, 360px);
+     color: rgb(0, 0, 0);
+     background-color: rgb(255, 255, 255);
+     box-shadow: 5px 10px 10px rgb(145, 133, 133);
+     border-radius: 10px;
+     padding: 10px;
+     border: 1px solid white;
+  }
+  .b9{
+     width: 200px;
+     height: 40px;
+    font-size: 15px;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    background-image: linear-gradient(to right,  rgb(207, 135, 207), rgb(179, 57, 179));
+  }
+  .sh{
+   color: gray;
+  }
+   .sh:hover{
+      box-shadow:0 5px,0 5px, 0 10px rgb(255, 255, 255);
+      color: black;
+      transform: translateY(-20px);
+   }
+   .b7:hover{
+      transform: translateY(-10px);
+      box-shadow: 5px 10px 10px white;
+    }
+    .b6:hover{
+      transform: translateY(-10px);
+      box-shadow: 5px 10px 10px white;
+    }

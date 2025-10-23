@@ -1,0 +1,125 @@
+body{
+   background-color: rgb(26, 19, 19);
+  }
+  nav{
+     display: flex;
+     justify-content: center;
+     gap:20px;
+     transform: translate(10px, 20px);
+  }
+  a{
+     text-decoration: none;
+     color: rgb(165, 165, 165);
+     transition: 1s;
+     position: relative;
+     border-radius: 5px;
+     padding: 5px;
+  }
+  .sh{
+     color: gray;
+    }
+     .sh:hover{
+        box-shadow:0 5px, 0 5px, 0 10px rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        transform: translateY(-20px);
+     }
+  .container{
+     justify-content: left;
+     display: flex;
+  }
+  .box{
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+     padding: 40px;
+     color: white;
+     border-radius: 15px;
+     border: 0.3px solid rgb(32, 28, 28);
+     transform: translate(30px, -110px);
+     margin: 10px;
+  }
+  .i{
+     width: 180px;
+     height:180px;
+     border-radius: 15px;
+  }
+  .b1{
+     transform: translate(1150px, -30px);
+     width: 100px;
+     border-radius: 10px;
+     padding: 10px ;
+     border: 1px solid rgb(26, 19, 19);
+     background-image: linear-gradient(to right,  pink, plum);
+  }
+  .b2{
+  transform: translate(1050px, -90px);
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  }
+   a > img{
+   width: 50px;
+  }
+  .h{
+     color: white;
+     transform: translate(60px, 50px);
+     font-size: 70px;
+  }
+  .b6{
+     transform: translate(-500px, 400px);
+     color: white;
+     border-radius: 10px;
+     padding: 10px;
+     background-color: rgb(26, 19, 19);
+     box-shadow: 5px 10px 10px black;
+  }
+  .b7{
+     transform: translate(-470px, 400px);
+     color: white;
+     background-color: rgb(26, 19, 19);
+     box-shadow: 5px 10px 10px black;
+     border-radius: 10px;
+     padding: 10px;
+  }
+  .b9{
+     transform: translate();
+     width: 200px;
+     height: 40px;
+    font-size: 15px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right,  rgb(255, 163, 180), rgb(165, 95, 165));
+  }
+  .h1{
+   color:rgb(235, 170, 221);
+   transform: translate(60px, -50px);
+   font-size: 55px;
+  }
+  .grid{
+   display: grid;
+  }
+  input[type=text] {
+   width: 100%;
+   padding: 12px 20px;
+   margin: 5px 0;
+   box-sizing: border-box;
+   border: solid rgb(26, 19, 19);
+   background-color:  rgb(26, 19, 19);
+   color: white;
+   font-size: 20px;
+  }
+  label{
+   color: rgb(223, 170, 221);
+   font-size: 25px;
+   text-shadow: 2px 2px 5px;
+  }
+  input:hover{
+   border-bottom: 8px solid rgb(225, 0, 255);
+  }
+  form{
+   transform: translate(120px, -100px);
+  }
+  .b10{
+   margin: 10px;
+   background-image: linear-gradient(to right,  rgb(255, 163, 180), rgb(165, 95, 165));
+   border-radius: 15px;
+   padding: 8px;
+   transform: translateY(50px);
+  }
